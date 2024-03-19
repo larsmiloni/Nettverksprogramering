@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebSocket Test</title>
+</head>
+<body>
+    <script>
+        // Endre ws://localhost:3001 til adressen og porten din om nødvendig
+        const ws = new WebSocket('ws://localhost:3001');
+
+        ws.onopen = function(event) {
+            console.log('Connection is open ...');
+            ws.send('Hei server!');
+        };
+
+        ws.onerror = function(err) {
+            console.log('Error occurred:', err);
+        };
+
+        ws.onmessage = function(event) {
+            console.log('Message from server:', event.data);
+        };
+
+        ws.onclose = function(event) {
+            console.log('Connection is closed.');
+        };
+    </script>
+</body>
+</html>

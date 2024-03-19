@@ -1,0 +1,11 @@
+
+0
+java:S1220""Move this file to a named package.
+`
+java:S2095"JUse try-with-resources or close this "ServerSocket" in a "finally" clause.(ÓÓüÈ
+o	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ññ¢Å
+S	java:S106"9Replace this use of System.out or System.err by a logger.(”Ò‹œùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÑŸ¶¸
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æüÀ¤
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ñ—¸½úÿÿÿÿ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(Öôíéøÿÿÿÿ
